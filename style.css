@@ -59,26 +59,17 @@ body {
   margin: 10px 0;
 }
 
-/* SKILLS */
-.skills-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+.skills-list {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin-top: 15px;
+  text-align: left;
 }
 
-.skills-box span {
-  padding: 10px 15px;
-  background: #1e293b;
-  border-radius: 20px;
-  transition: 0.3s;
+.skills-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
 }
-
-.skills-box span:hover {
-  background: #3b82f6;
-  transform: scale(1.1);
-}
-
 /* PROJECTS */
 .project-card {
   background: #1e293b;
